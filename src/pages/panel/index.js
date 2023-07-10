@@ -9,6 +9,8 @@ function Panel() {
 
             <h1>Panel</h1>
 
+            <p> Conectado al panel</p>
+
         </div>
 
     )
