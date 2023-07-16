@@ -2,16 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -41,4 +31,83 @@
   height: 50px;
   width:100%;
   background: #555;
+  top:0;
+  padding-top:20px;
 }
+
+.topMenu a {
+
+  text-decoration:none;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 10px 20px 20px 10px;
+  font-weight: 400
+
+}
+
+
+.topMenu a:hover {
+
+  font-weight: 600
+
+}
+
+.heavyBanner {
+  width:100%;
+  height: 500px;
+  background-color:#888;
+}
+
+.productos div{
+
+  width:250px;
+
+  height: 350px;
+  background-color:#222;
+  margin: 10px;
+
+}
+
+.productos div {
+  float:left;
+}
+
+.productos {padding: 0 auto;}
+
+
+h3 {
+  font-size:40px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 40px;
+  margin-bottom: 60px
+}
+
+.banner {
+  width: 49%;
+  min-height: 300px;
+  background-color: #888;
+  float:left;
+  margin: 5px;
+ 
+}
+
+.corte{ clear:both;}
+
+
+.topFooter {
+  background-color:#ddd;
+  width:100%;
+  height: 400px;
+  margin-top:100px
+}
+
+.footer {
+  background-color: #333;
+  height:50px;
+  width:100%;
+
+}
+
+
+
