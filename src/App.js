@@ -10,10 +10,12 @@ import Woman from './pages/woman';
 import TopMenu from './components/topmenu';
 import TOPFooter from './components/topfooter';
 import Footer from './components/footer';
+import Container from 'react-bootstrap/Container';
+
 
 function App() {
   return (
-    <div className="App">
+    <Container>
     <TopMenu />
 
   <Routes>
@@ -28,7 +30,7 @@ function App() {
   <TOPFooter />
   <Footer />
      
-    </div>
+    </Container>
   );
 }
 
